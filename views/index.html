@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CyberLearn Dressing Room</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./../assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="text-center">
+            <img src="./../assets/images/cybersoft.png" alt="Card image" />
+          </div>
+
+          <div class="card-body">
+            <h4 class="card-title text-center">
+              CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+              - Virtual Dressing Room
+            </h4>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="nav nav-pills"></ul>
+
+        <div class="well">
+
+          <div class="tab-content">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-background"
+                  role="tab" aria-controls="nav-home" aria-selected="true">Background</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-hair" role="tab"
+                  aria-controls="nav-profile" aria-selected="false">Hair</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-face" role="tab"
+                  aria-controls="nav-face" aria-selected="false">Face</a>
+                <a class="nav-item nav-link" id="nav-necklace-tab" data-toggle="tab" href="#nav-necklace" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">
+                  Necklace</a>
+                <a class="nav-item nav-link" id="nav-shirt-tab" data-toggle="tab" href="#nav-shirt" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">
+                  Shirt</a>
+                <a class="nav-item nav-link" id="nav-dress-tab" data-toggle="tab" href="#nav-shorts" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">
+                  Shorts/Dress</a>
+                <a class="nav-item nav-link" id="nav-shoes-tab" data-toggle="tab" href="#nav-shoes" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">
+                  Shoes</a>
+                <a class="nav-item nav-link" id="nav-bags-tab" data-toggle="tab" href="#nav-handbag" role="tab"
+                  aria-controls="nav-contact" aria-selected="false">
+                  HandBag</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-background" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row" id="showBG">
+                  <div class="col-3 mt-3">
+                    <div class="content text-center">
+                      <div class="content__img">
+                        <img class="img-fluid" src="../assets/images/background/background1.jpg">
+                      </div>
+                      <div class="content__text py-2">
+                        <h5>Background-Num1</h5>
+                      </div>
+
+                      <div class="content__button">
+                        <button class="btn btn-success">Try On</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-hair" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="row" id="showHair">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-face" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row" id="showFace">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-necklace" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row" id="showNecklace">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-shirt" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row" id="showShirt">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-shorts" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row" id="showDress">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-shoes" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row" id="showShoes">
+                </div>
+              </div>
+              <div class="tab-pane fade" id="nav-handbag" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row" id="showBags">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contain">
+          <div class="body"></div>
+          <div class="model"></div>
+          <div class="hairstyle"></div>
+          <div class="necklace"></div>
+          <div class="bikinitop"></div>
+          <div class="bikinibottom"></div>
+          <div class="handbag"></div>
+          <div class="feet"></div>
+          <div class="background"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="../js/index.js"></script>
+</body>
+
+</html>
